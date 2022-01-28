@@ -1,0 +1,36 @@
+{
+  "name": "ThomButtMSD6.3B_CryptoHome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BananaScrubNuts/ThomButtMSD6.3B_CryptoHome"
+  },
+  "homepage": "https://github.com/BananaScrubNuts/ThomButtMSD6.3B_CryptoHome#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "@truffle/hdwallet-provider": "^2.0.1",
+    "cfonts": "^2.10.0",
+    "clear": "^0.1.0",
+    "dotenv": "^14.3.2",
+    "readline-sync": "^1.4.10",
+    "save": "^2.4.0",
+    "shelljs": "^0.8.5",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.4",
+    "@types/shelljs": "^0.8.11",
+    "lite-server": "^2.3.0"
+  }
+}
